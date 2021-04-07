@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Extension Switch",
+  "version": "0.0.1",
+
+  "description": "Extension Switch",
+  "icons": {
+    "48": "icons/icon48.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/icon48.png"
+    },
+    "default_title": "Extension Switch",
+    "default_popup": "popup/index.html"
+  },
+  "permissions": ["management"]
+}
